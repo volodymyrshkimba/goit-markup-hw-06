@@ -97,6 +97,18 @@ body {
   letter-spacing: 0.02em;
 }
 
+@media screen and (max-width: 1157px) {
+  .about .item-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .about .item-text {
+    font-weight: 500;
+  }
+}
+
 .section-padding {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -265,18 +277,177 @@ body {
   }
 }
 /* ============ HERO STYLES ============ */
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg-tel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-clip: padding-box;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/hero-bg-tel@2x.jpg');
+  }
+}
+
+.hero-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 216px;
+  margin-bottom: 72px;
+}
+
+.hero-btn {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tablet@2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-desktop.jpg);
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-desktop@2x.jpg);
+    }
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+}
 
 /* ============ ABOUT STYLES ============ */
 
-@media screen and (max-width: 1157px) {
+.about-item-top {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
   .about .item-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    text-align: center;
   }
 
-  .about .item-text {
-    font-weight: 500;
+  .about-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-list {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  .about-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1157px) {
+    .about-list {
+      row-gap: 72px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .about-item-top {
+    display: flex;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-icon {
+    display: block;
+  }
+
+  .about-item {
+    width: calc((100% - 24px) / 4);
   }
 }
 

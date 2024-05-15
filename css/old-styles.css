@@ -123,9 +123,9 @@ body {
   gap: 40px;
 } */
 
-.page-header .page-logo {
+/* .page-header .page-logo {
   margin-right: 76px;
-}
+} */
 
 /* .page-logo {
   font-family: 'Raleway', sans-serif;
@@ -178,10 +178,10 @@ body {
   bottom: -1px;
 } */
 
-.address-list {
+/* .address-list {
   display: flex;
   gap: 40px;
-}
+} */
 /* .address-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -192,7 +192,7 @@ body {
 
 /* ============ HERO ============ */
 
-.hero {
+/* .hero {
   background-color: #2e2f42;
   color: #ffffff;
   padding-top: 188px;
@@ -204,13 +204,13 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg-desktop.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-clip: padding-box;
   background-size: cover;
-}
-
+} */
+/* 
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -221,9 +221,9 @@ body {
   margin-right: auto;
   max-width: 496px;
   margin-bottom: 48px;
-}
+} */
 
-.hero-btn {
+/* .hero-btn {
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -244,19 +244,20 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
-}
+} */
 
 /* ============ ABOUT ============ */
 
-.about-list {
+/* .about-list {
   display: flex;
   gap: 24px;
-}
-.about-item {
-  width: calc((100% - 24px) / 4);
-}
+} */
 
-.about-item-top {
+/* .about-item {
+  width: calc((100% - 24px) / 4);
+} */
+
+/* .about-item-top {
   display: flex;
   height: 112px;
   background-color: #f4f4fd;
@@ -269,7 +270,7 @@ body {
 
 .about-icon {
   display: block;
-}
+} */
 
 /* ============ TEAM ============ */
 
