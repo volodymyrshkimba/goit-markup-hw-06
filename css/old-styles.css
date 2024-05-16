@@ -274,36 +274,36 @@ body {
 
 /* ============ TEAM ============ */
 
-.team {
+/* .team {
   background-color: #f4f4fd;
-}
+} */
 
-.team-list {
+/* .team-list {
   display: flex;
   gap: 24px;
-}
+} */
 
-.team-item {
+/* .team-item {
   background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
-}
+} */
 
-.team-item-bottom {
+/* .team-item-bottom {
   padding-top: 32px;
   padding-bottom: 32px;
-}
+} */
 
-.icon-list {
+/* .icon-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-}
+} */
 
-.icon-link {
+/* .icon-link {
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -322,16 +322,16 @@ body {
 
 .icon-link:focus {
   background-color: #404bbf;
-}
+} */
 
-.team .item-title,
+/* .team .item-title,
 .team .item-text {
   text-align: center;
 }
 
 .team .item-text {
   margin-bottom: 8px;
-}
+} */
 
 /* ============ PORTFOLIO ============ */
 

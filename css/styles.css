@@ -452,10 +452,104 @@ body {
 }
 
 /* ============ TEAM STYLES ============ */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-item {
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+}
+
+.team-item-bottom {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.icon-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-item:hover .icon-link {
+  background-color: #404bbf;
+}
+
+.icon-link:focus {
+  background-color: #404bbf;
+}
+
+.team .item-title,
+.team .item-text {
+  text-align: center;
+}
+
+.team .item-text {
+  margin-bottom: 8px;
+}
 
 .icon {
   fill: #f4f4fd;
 }
+
+@media screen and (max-width: 767px) {
+  .team-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+
+  .team-container {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1157px) {
+    .team-container {
+      padding-left: 108px;
+      padding-right: 108px;
+    }
+
+    .team-list {
+      flex-wrap: wrap;
+      row-gap: 64px;
+    }
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+}
+
+/* ============ PORTFOLIO STYLES ============ */
 
 /* ============ FOOTER STYLES ============ */
 
@@ -467,7 +561,7 @@ body {
 }
 
 /* ============ MOB MENU STYLES ============ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .mob-menu {
     width: 100%;
     height: 100%;
