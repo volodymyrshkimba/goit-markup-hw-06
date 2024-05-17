@@ -835,11 +835,47 @@ body {
   transform: translate(-50%, -50%) scale(1);
   background-color: #fcfcfc;
   border-radius: 4px;
-  min-width: 288px;
+  max-width: 288px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   padding: 72px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-exit-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background-color: #e7e9fc;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-exit-icon {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-exit-button:hover .modal-exit-icon {
+  fill: #ffffff;
+}
+
+.modal-exit-button:focus .modal-exit-icon {
+  fill: #ffffff;
+}
+
+.modal-exit-button:hover,
+.modal-exit-button:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 /* ============ MOB MENU STYLES ============ */
