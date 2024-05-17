@@ -525,7 +525,7 @@ body {
   opacity: 1;
 } */
 
-.modal {
+/* .modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -538,7 +538,7 @@ body {
   padding: 72px 24px 24px;
   min-height: 584px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* .modal-exit-button {
   position: absolute;
@@ -576,20 +576,20 @@ body {
   border: none;
 } */
 
-.modal-title {
+/* .modal-title {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
   text-align: center;
-}
+} */
 
-.form-field {
+/* .form-field {
   margin-bottom: 8px;
-}
+} */
 
-.form-label {
+/* .form-label {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -597,9 +597,9 @@ body {
   color: #8e8f99;
   margin-bottom: 4px;
   cursor: pointer;
-}
+} */
 
-.form-input {
+/* .form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
@@ -633,9 +633,9 @@ body {
 
 .textarea-form-field {
   margin-bottom: 16px;
-}
+} */
 
-.form-textarea {
+/* .form-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
@@ -666,9 +666,9 @@ body {
 
 .form-textarea:focus::placeholder {
   color: #4d5ae5;
-}
+} */
 
-.form-checkbox-wrapper {
+/* .form-checkbox-wrapper {
   margin-bottom: 24px;
 }
 
@@ -733,4 +733,4 @@ body {
 .form-send-button:hover,
 .form-send-button:focus {
   background-color: #404bbf;
-}
+} */
