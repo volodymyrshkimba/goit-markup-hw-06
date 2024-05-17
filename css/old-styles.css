@@ -393,34 +393,34 @@ body {
   background-color: #2e2f42;
 } */
 
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: baseline;
-}
+} */
 
-.footer-left-side {
+/* .footer-left-side {
   margin-right: 120px;
-}
+} */
 
 /* .page-footer .logo-part {
   color: #f4f4fd;
 } */
 
-.footer-text {
+/* .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-}
+} */
 
 /* .page-footer .page-logo {
   display: inline-block;
   margin-bottom: 16px;
 } */
 
-.footer-social {
+/* .footer-social {
   margin-right: 80px;
-}
+} */
 
 /* .footer-social-text {
   font-weight: 500;
@@ -445,10 +445,10 @@ body {
   background-color: #31d0aa;
 } */
 
-.subscribe-form {
+/* .subscribe-form {
   display: flex;
   gap: 24px;
-}
+} */
 
 /* .footer-subscribe-text {
   font-weight: 500;
@@ -458,7 +458,7 @@ body {
   margin-bottom: 16px;
 } */
 
-.subscribe-user-email-input {
+/* .subscribe-user-email-input {
   border: 1px solid #ffffff;
   border-radius: 4px;
   width: 264px;
@@ -477,9 +477,9 @@ body {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
+} */
 
-.subscribe-user-btn {
+/* .subscribe-user-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -502,10 +502,10 @@ body {
 .subscribe-btn-icon {
   fill: #ffffff;
   margin-left: 16px;
-}
+} */
 
 /* ============ MODAL OVERLAY ============ */
-
+/* 
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -523,7 +523,7 @@ body {
 .is-open {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 .modal {
   position: absolute;
